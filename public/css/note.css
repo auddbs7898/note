@@ -19,12 +19,13 @@ color: #fff; font-size: 1rem;}
 .section{width: 100%; position: relative; height: calc(100% - 5rem);}
 
 .navs{float: left; width: 35%; height: 100%; font-size: 1rem; overflow-y: auto;}
-.navs ul{ border-bottom: 1px solid white; position: relative;}
-.navs ul li{ padding: 0.5em;}
-.navs ul li:first-child{font-size: 1.25em; color:rgb(16, 48, 88); font-weight: bold}
-.navs ul li:nth-child(2){font-size: 0.75em; color:rgb(26, 26, 27);}
-.navs ul li:last-child{ color: red; font-weight: bold; font-size: 1.5em; position: absolute;
+.navs > ul{ border-bottom: 1px solid white; position: relative;}
+.navs > ul > li{ padding: 0.5em;}
+.navs > ul > li:first-child{font-size: 1.25em; color:rgb(16, 48, 88); font-weight: bold}
+.navs > ul > li:nth-child(2){font-size: 0.75em; color:rgb(26, 26, 27);}
+.navs > ul > li:last-child{ color: rgb(114, 119, 113); font-weight: bold; font-size: 1.5em; position: absolute;
 background-color: white; right:0; top:50%; transform: translateY(-50%) }
+.navs > ul > li:last-child:hover{ color: red}
 
 .conts{float: right; width: 65%; height:100%; border-left: 2px solid #f1f1f1; padding: 2%;}
 .conts > textarea{height: 80%; font-size: 1.5em;}
